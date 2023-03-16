@@ -5,10 +5,10 @@
 
 /**
  * _is_zero - determines if any number is zero
- * @argv: argument vector
- * Return: no return
+ * @argv: argument vector.
+ *
+ * Return: no return.
  */
-
 void _is_zero(char *argv[])
 {
 	int i, isn1 = 1, isn2 = 1;
@@ -36,11 +36,11 @@ void _is_zero(char *argv[])
 
 /**
  * _initialize_array - set memery to zero in a new array
- * @ar: char array
- * @lar: length of the char array
- * Return: pointer of a char array
+ * @ar: char array.
+ * @lar: length of the char array.
+ *
+ * Return: pointer of a char array.
  */
-
 char *_initialize_array(char *ar, int lar)
 {
 	int i = 0;
@@ -52,13 +52,13 @@ char *_initialize_array(char *ar, int lar)
 }
 
 /**
- * _checknum - determines length of the number,
- * and checks if number is in base 10
- * @argv: arguments vector
- * @n: row of the array
- * Return: length of the number
+ * _checknum - determines length of the number
+ * and checks if number is in base 10.
+ * @argv: arguments vector.
+ * @n: row of the array.
+ *
+ * Return: length of the number.
  */
-
 int _checknum(char *argv[], int n)
 {
 	int ln;
@@ -74,13 +74,13 @@ int _checknum(char *argv[], int n)
 }
 
 /**
- * main - Entry point
- * program that multiplies two positive numbers
- * @argc: number of arguments
- * @argv: arguments vector
- * Return: Always 0
+ * main - Entry point.
+ * program that multiplies two positive numbers.
+ * @argc: number of arguments.
+ * @argv: arguments vector.
+ *
+ * Return: 0 - success.
  */
-
 int main(int argc, char *argv[])
 {
 	int ln1, ln2, lnout, add, addl, i, j, k, ca;
@@ -124,3 +124,4 @@ int main(int argc, char *argv[])
 	printf("%s\n", nout);
 	return (0);
 }
+
