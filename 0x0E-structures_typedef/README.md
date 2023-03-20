@@ -1,1 +1,1 @@
-0x0E. C - Structures, typedef readme file
+structures readme file
